@@ -1,2 +1,2 @@
 # UC-mermaid
-Use Cases in Mermaid
+Use Cases in Mermaid.
