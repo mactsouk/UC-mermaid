@@ -11,7 +11,7 @@ sequenceDiagram
         Note right of CSV: REST API call
         Note right of CSV: REST API call
         TBD-->>CSV: Return Usage data (Source 1)
-        TBD-->>CSV: Return Usage data (Source 2)     
+        TBD-->>CSV: Return Usage data (Source 2)
     end
 
     FR->>CTC: Logs in
