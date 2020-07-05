@@ -1,3 +1,4 @@
+#### UC-A-02: Team visualizations
 
 ```mermaid
 sequenceDiagram
