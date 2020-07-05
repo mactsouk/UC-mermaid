@@ -2,7 +2,7 @@
 
 ```mermaid
 sequenceDiagram
-    participant U
+    participant U as U1, U2
     participant CTC
     participant CSV
     participant GAME

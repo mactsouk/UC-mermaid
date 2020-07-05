@@ -2,10 +2,10 @@
 
 ```mermaid
 sequenceDiagram
-    participant FR
+    participant U as FR, CR
     participant CTC
     participant CSV
-    participant TBD
+    participant TBD as [TBD]
 
     par [Get Data]
         CSV->>TBD: A Database that keeps Usage data
@@ -15,9 +15,9 @@ sequenceDiagram
         TBD-->>CSV: Return Usage data (Source 2)
     end
 
-    FR->>CTC: Logs in
-    FR->>CTC: Navigate to CSV
+    U->>CTC: Logs in
+    U->>CTC: Navigate to CSV
     CTC->>CSV: Open CSV Window
     CSV-->>CSV: Query Internal Database
-    CSV->>FR: Displays Visualisations
+    CSV->>U: Displays Visualisations
 ```

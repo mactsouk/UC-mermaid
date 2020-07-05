@@ -2,11 +2,11 @@
 
 ```mermaid
 sequenceDiagram
-    participant U
+    participant U as U1, U2, U3, U4, U5
     participant CTC
     participant CSV
-    participant TBD1 as TBD List of Scenarios
-    participant TBD2 as TBD Scenario Specification
+    participant TBD1 as [TBD List of Scenarios]
+    participant TBD2 as [TBD Scenario Specification]
 
     U->>CTC: Logs in
     U->>CSV: Asks for Available Scenarios
