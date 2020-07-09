@@ -16,7 +16,7 @@ sequenceDiagram
     par Get Data
         CSV->>CTC_Auth: A Database that keeps Usage data
         Note right of CSV: REST API
-        CTC_Auth-->>CSV: Return Usage data (Source 1)
+        CTC_Auth-->>CSV: Return Usage data
     end
 
     U->>CTC: Logs in
